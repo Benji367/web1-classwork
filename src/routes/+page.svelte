@@ -9,21 +9,6 @@
 <Card name = {"Buddy"}/>
 <Card />
 <Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
-<Card />
 
 <style>
     p a{
