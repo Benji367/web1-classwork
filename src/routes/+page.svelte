@@ -1,4 +1,5 @@
 <script>
+    import Navbar from "$lib/components/Navbar.svelte";
     import Card from "$lib/components/card.svelte";
     import rubio from "$lib/images/rubio.jpg"
     import carrierVideo from '$lib/images/carrierVideo.mp4';
@@ -8,6 +9,10 @@
         image: rubio
     }
 </script>
+
+<Navbar>
+
+</Navbar>
 
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
@@ -43,7 +48,7 @@
     }
 
     img{
-        width: 300px;
+        width: 200px;
         height: 200px;
     }
 </style>
