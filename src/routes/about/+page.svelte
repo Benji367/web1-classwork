@@ -21,7 +21,7 @@
     }
 
     div img{
-        width: 600px;
+        width: 800px;
         border: 3px solid orange;
         border-radius: 8px;
         }
