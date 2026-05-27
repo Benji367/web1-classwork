@@ -2,4 +2,7 @@
     let { data } = $props();
 </script>
 
-<h2>{data.pokemon.name}</h2>
+<!-- Loop over the Pokemons -->
+{#each data.pokemons.results as pokemon}
+<h2>{pokemon.name}</h2>
+{/each}
