@@ -2,7 +2,7 @@
     const navItems = [
         {label: "Home", href: "/"},
         {label: "About", href: "/about"},
-        //{label: "PokeTest", href:"/poketest"}
+        {label: "PokeTest", href:"/poketest"}
     ];
 </script>
 
@@ -14,9 +14,9 @@
         <li>
             <a href={navItems[1].href}>{navItems[1].label}</a>
         </li>
-        <!-- <li>
+        <li>
             <a href={navItems[2].href}>{navItems[2].label}</a>
-        </li> -->
+        </li>
     </ul>
 </nav>
 
