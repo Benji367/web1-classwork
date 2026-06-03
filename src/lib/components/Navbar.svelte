@@ -43,10 +43,4 @@
         border: 2px solid red;
         border-radius: 6px;
     }
-
-    a:hover{
-        
-        text-decoration-color: purple;
-    }
-
 </style>

@@ -6,6 +6,7 @@
     console.log(data);
 </script>
 
+<Navbar></Navbar>
 <!-- Loop over the Pokemons -->
 
 <section>
@@ -17,7 +18,9 @@
 
 <style>
     section{
+        padding: auto;
         display: grid;
         grid-template-columns: auto auto auto;
     }
+
 </style>
